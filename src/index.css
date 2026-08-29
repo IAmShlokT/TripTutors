@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --bg-sand: #FDFBF7;
+  --sage: #7A8D6E;
+  --sage-light: #E9EDDF;
+  --sage-dark: #58694C;
+  --clay: #D6A378;
+  --clay-light: #F5E8DC;
+  --sky: #A5C4D4;
+  --sky-light: #E6F0F5;
+  --ink: #433D3A;
+  --ink-light: #77716E;
+  --border-natural: #EFEBE5;
+}
+
+body {
+  background-color: var(--bg-sand);
+  color: var(--ink);
+  font-family: 'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .bg-sand {
+    background-color: #FDFBF7;
+  }
+  .bg-sage {
+    background-color: #7A8D6E;
+  }
+  .bg-sage-light {
+    background-color: #E9EDDF;
+  }
+  .bg-clay {
+    background-color: #D6A378;
+  }
+  .bg-clay-light {
+    background-color: #F5E8DC;
+  }
+  .bg-sky-natural {
+    background-color: #A5C4D4;
+  }
+  .text-ink {
+    color: #433D3A;
+  }
+  .text-sage {
+    color: #7A8D6E;
+  }
+  .text-clay {
+    color: #D6A378;
+  }
+  .border-natural {
+    border-color: #EFEBE5;
+  }
+  .border-sage-light {
+    border-color: #E9EDDF;
+  }
+  .border-sage {
+    border-color: #7A8D6E;
+  }
+  
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+

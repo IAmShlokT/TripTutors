@@ -1,0 +1,6 @@
+{
+  "name": "Adaptive K-12 AI Virtual Tutor",
+  "description": "An adaptive, kid-friendly virtual tutor for Pre-K through 12th grade students covering Math, ELA, Science, and Social Studies with guided scaffolding and growth mindset.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
